@@ -23,6 +23,8 @@ Factory.createElement = function(options){
         var attr = options.attrs[i]
         if (typeof element[attr.name] == 'string' || typeof element[attr.name] == null ){
           element[attr.name] = attr.value
+        } else if (typeof $(element)[attr.name] == 'function'){
+          $(element)[attr.name](attr.value)
         } else {
           element.setAttribute(attr.name,attr.value)
         }
