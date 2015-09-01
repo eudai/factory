@@ -7,16 +7,20 @@ Quickly create HTML Elements using CSS Selectory Strings
 Installation
 ------------
 
+Clone the repository or download the as a zip file.s
+
 ```
-git clone https://github.com/eudai/factory.git
+	git clone https://github.com/eudai/factory.git
 ```
 
 Include the dependencies:
 
 ```html
+<head>
 	<script src='jquery.min.js'></script>
 	<script src='css-selector-parser.js'></script>
 	<script src='factory.jquery.js'></script>
+</head>	
 ```
 
 Usage
