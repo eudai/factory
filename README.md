@@ -1,7 +1,7 @@
 Factory.js
 ========================
 
-Quickly create HTML Elements using CSS Selectory Strings
+Quickly create HTML Elements using CSS Selector Strings
 
 
 Installation
